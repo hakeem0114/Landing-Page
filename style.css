@@ -4,6 +4,293 @@
     box-sizing: border-box; /* Takes the padding & margin into account of box H & W*/
 }
 
-logo{
-    display:flex;
+body{
+    height: 100vh;
 }
+
+/*******************1ST Part******************/
+header{
+    height: 80px;
+
+    background-color: #1F2937;
+
+    display:flex; /* flex-direction:row by default*/
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+logo a{
+    background-color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-decoration: none;
+
+    margin-left: 250px;
+}
+
+ul{
+    list-style-type: none;
+    
+
+    display:flex;
+    margin:200px;
+    justify-content: center;
+}
+
+li a{
+   
+    font-size: 18px;
+    color: #E2E7EB;
+    
+    margin:10px;
+    
+    text-decoration: none;
+}
+
+
+
+/*******************2ND PART******************/
+two{
+    height:400px;
+
+    background-color: #1F2937;
+    display:flex; /* flex-direction:row by default*/
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.second-left{
+    display:flex;
+    flex-direction: column;
+}
+
+button{
+    padding:5px;
+    border-radius:5px; /* Fillet on edges of box*/
+    border-color: transparent; /*    border: none; is not the correct function */
+   
+    background:  #3882F6;
+}
+
+button a{ /*Changes the text in the button */
+    text-decoration: none;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.second-left button{
+    display: flex;
+    width: 65px;
+    margin-left: 700px;
+    
+}
+
+.second-left h1{
+    display: flex;
+
+    margin-left: 700px;
+
+    width: 300px;
+}
+
+.second-left p{
+    display: flex;
+    text-align: left;
+    margin-left: 700px;
+}
+
+.second-right{
+
+    display: flex;
+    margin:300px;
+
+    height: 300px;
+    width: 500px;
+}
+
+
+/*******************3RD PART******************/
+three{
+    height: 400px;
+
+    display:flex; /* flex-direction:row by default*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+three h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+
+    margin-top: -2.25em;
+    margin-bottom:.5em;
+}
+
+.boxes{
+    display: flex; /* flex-direction:row; */
+    
+}
+.box-one{
+    border-radius: 10px;
+    background:none;
+    border: 3px solid  #3882F6;
+
+    width: 100px;
+    height: 100px;
+
+    margin-right: 1em; /*Spacing between boxes*/
+}
+.box-one p{ 
+    margin-top: 100px; /*Pushes text below the boxes*/
+    color: rgba(26, 23, 23, 0.712);
+    font-size: 18px;
+} 
+
+.box-two{
+    border-radius: 10px;
+    background:none;
+    border: 3px solid  #3882F6;
+
+    width: 100px;
+    height: 100px;
+
+    margin-right: 1em; /*Spacing between boxes*/
+}
+.box-two p{     margin-top: 100px; /*Pushes text below the boxes*/
+    color: rgba(26, 23, 23, 0.712);
+    font-size: 18px;
+} 
+
+.box-three{
+    border-radius: 10px;
+    background:none;
+    border: 3px solid  #3882F6;
+
+    width: 100px;
+    height: 100px;
+
+    margin-right: 1em; /*Spacing between boxes*/
+}
+.box-three p{     margin-top: 100px; /*Pushes text below the boxes*/
+    color: rgba(26, 23, 23, 0.712);
+    font-size: 18px;
+} 
+.box-four{
+    border-radius: 10px;
+    background:none;
+    border: 3px solid  #3882F6;
+
+    width: 100px;
+    height: 100px;
+
+    margin-right: 1em; /*Spacing between boxes*/
+}
+.box-four p{     margin-top: 100px; /*Pushes text below the boxes*/
+    color: rgba(26, 23, 23, 0.712);
+    font-size: 18px;
+} 
+
+/*******************4TH PART******************/
+four{
+    height: 400px;
+
+    background-color: #E5E7EB;
+    display:flex; /* flex-direction:row by default*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+four p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+
+    margin: .25em;
+}
+
+four h4{
+    margin-top: 1em;
+    margin-left: 50em;
+    text-align: end;
+
+    font-size: 24px;
+}
+
+
+/*******************5TH PART******************/
+five{
+    height: 400px;
+
+    display:flex; /* flex-direction:row by default*/
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.box-five{
+    
+    background:  #3882F6;
+    display:flex;
+
+    padding:4em;
+    border-radius:10px;
+
+    width: 700px;
+
+}
+
+#top{
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#bottom{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.box-five button{
+    display: flex;
+
+    border-radius: 10px;
+    border: 1px solid white;
+ 
+    padding: 1em;
+    margin:1em;
+    margin-left: 4em;
+
+    width: 85px;
+}
+
+
+/*******************FOOTER******************/
+footer p{
+  min-height: 100px; /*Retricts the end of the page*/
+
+  background-color: #1F2937;
+
+  display:flex; /* flex-direction:row by default*/
+  justify-content: center;
+  align-items: center;
+
+}
+
